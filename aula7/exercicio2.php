@@ -21,7 +21,9 @@
         <br>
         1. Murilo <br>
         2. Poliana <br>
-        3. .... <br>
+        3. Dalva <br>
+        4. Lavinia <br>
+        5. Kaua <br>
 </p>
 
 
