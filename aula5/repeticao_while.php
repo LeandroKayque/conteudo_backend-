@@ -11,11 +11,11 @@
 </style>
 
 
-<h2>Estrutura de repetição while</h2>
+<h2>Estrutura de repetição While</h2>
 <p>
-        Utilizada para repetir uma sequência de
-        instruções, enquanto uma condição for
-        verdadeira.
+    Utilizada para repetir uma sequência de 
+    instruções, enquanto uma condição for 
+    verdadeira.
 </p>
 
 <p>
@@ -26,20 +26,20 @@
     </pre>
 </p>
 
-<div class = "container">
-<?php
-    $tabuada = 1;
-    while($tabuada <= 10){
-        echo "<div>";
-        $contador = 0; 
-        while($contador <= 10){
-            $resultado = $tabuada * $contador;
-            echo "$tabuada x $contador = $resultado <br>";
-            $contador++;
+<div class="container">
+    <?php
+        $tabuada = 1;
+        while($tabuada <= 10){
+            echo "<div>";               
+            $contador = 0;
+            while($contador <=10){
+                $resultado =  $tabuada * $contador;
+                echo "$tabuada x $contador = $resultado <br>";
+                $contador++;
+            }
+            echo "</div>";
+            $tabuada++;
         }
-        echo "</div>";
-        $tabuada++;
-    }
-?>
+    ?>
 </div>
 

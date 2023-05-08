@@ -6,12 +6,9 @@ $cores = array('amarelo', 'verde', 'azul', 'rosa', 'vermelho', 'roxo', 'laranja'
 <html>
 <head>
 	<title>CORES LINKS</title>
-</head>
-<body>
+</head>	<h1>Escolha uma cor:</h1>
 
-	<h1>Escolha uma cor:</h1>
 
-	
 
 </body>
 </html>

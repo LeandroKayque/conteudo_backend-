@@ -2,13 +2,13 @@
 <hr>
 
 <p>
-    Operadores relacionais são utilizados
-    para comprar a relação entre "coisas".
+   Operadores relacionais são utilizados
+   para comparar a relação entre "coisas". 
 </p>
 
 <ul>
     <li>>  | Maior</li>
-    <li><  | Menos</li>
+    <li><  | Menor</li>
     <li>>= | Maior Igual</li>
     <li><= | Menor Igual</li>
     <li>!= | Diferente</li>
@@ -16,14 +16,14 @@
 </ul>
 
 <p>
-    Os operadores relacionais retornam verdadeiro
+    Os operadores relacionais retornam verdadeiro 
     (true), ou falso (false). Em PHP true pode ser
     representado por 1 ou por uma variavel com valor,
-    e falso pode ser representado por 0 ou pela
-    inexistência d evalor em uma variável.
+    e falso pode ser representado por 0 ou pela 
+    inexistência de valor em uma variável.
 </p>
 
 <?php
-    $valor = 10 >= 10;
-    var_dump($valor);
+   $valor = 10 > 10;
+   var_dump($valor);
 ?>
