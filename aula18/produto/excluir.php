@@ -1,16 +1,14 @@
-
 <?php
 require_once "../conexao.php";
 
-$nome = $_POST["nome"];
-$descricao = $_POST["descricao"];
-$preco = $_POST["preco"];
-$foto = "semfoto.png";
+$id = $_POST["id"];
 
-$id = $_GET['id'];
-$sql = "DELETE FROM `produto` WHERE `idproduto` = $id"; // define a instrução SQL para excluir o produto com o ID especificado
-echo $sql;
+$sql = "DELETE FROM produto WHERE idproduto = ?";
+$comando = $conexao->prepare($sql);
+$comando->bind_param("i", $id);
 
-$comando = $conexao->prepare($sql); // prepara a instrução SQL e armazena na variável $comando
-$comando->execute(); // executa a consulta
-?>
+if ($comando->execute()) {
+    echo "Produto excluído com sucesso!";
+} else {
+    echo "Erro ao excluir produto!";
+}

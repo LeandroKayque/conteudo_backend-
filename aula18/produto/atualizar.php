@@ -1,17 +1,19 @@
 <?php
 require_once "../conexao.php";
 
+$id = $_POST["id"];
 $nome = $_POST["nome"];
 $descricao = $_POST["descricao"];
 $preco = $_POST["preco"];
-$foto = "semfoto.png";
 
-$sql = "INSERT INTO `produto` (`nome`, `descricao`, `preco`, `foto`) VALUES (?, ?, ?, ?)"; // define a instrução SQL a ser executada
+$sql = "UPDATE `produto` SET `nome` = ?, `descricao` = ?, `preco` = ? WHERE `idproduto` = ?";
 echo $sql;
 
+$comando = $conexao->prepare($sql);
+$comando->bind_param("ssdi", $nome, $descricao, $preco, $id);
 
-$comando = $conexao->prepare($sql); // prepara a instrução SQL e armazena na variável $comando
-$comando->bind_param("ssds", $nome, $descricao, $preco, $foto);
-$comando->execute(); 
-
-?>
+if ($comando->execute()) {
+    echo "Produto atualizado com sucesso!";
+} else {
+    echo "Erro ao atualizar produto!";
+}
