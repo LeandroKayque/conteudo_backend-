@@ -1,12 +1,6 @@
 <?php
-    include "dados.php";
-
-
-
-
+    include_once "dados.php";
 ?>
-
-
 
 <!doctype html>
 <html lang="en">
@@ -17,17 +11,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   </head>
   <body>
+
      <!--Carousel -->
      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/b/ben-10-switch/hero" class="d-block w-100" alt="...">
+            <img src="imagens/foto1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://deadline.com/wp-content/uploads/2019/01/ben-10-2.jpg?w=681&h=383&crop=1" class="d-block w-100" alt="...">
+            <img src="imagens/foto2.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/b/ben-10-power-trip-switch/hero" class="d-block w-100" alt="...">
+            <img src="imagens/foto3.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -40,7 +35,9 @@
         </button>
         </div>
      <!-- Final do Carousel -->
-     <!-- Inicio do Menu -->
+
+
+<!-- Inicio do Menu -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Menu</a>
@@ -49,23 +46,27 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-
-    <?php
-    $categorias = []; 
-    foreach($produtos as $key => $value):
-    if(!in_array($value["categoria"], $categorias)):
-         $categorias[] = $value["categoria"];
-    ?>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <?php echo $value["categoria"]; ?></a>
-        </li>
         
-    <?php 
-    endif;
-    endforeach; ?>    
+    
+        <?php 
+          $categorias = [];
+          foreach($produtos as $key => $value): 
+            if(!in_array($value["categoria"], $categorias)): 
+              $categorias[] = $value["categoria"];
+        ?>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+               <?php echo $value["categoria"]; ?>
+            </a>
+          </li>
+        
+        <?php 
+           endif;
+           endforeach; 
+       ?>
+        
+        
+      
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -76,31 +77,31 @@
 </nav>
      <!-- Final do Menu -->
 
-     <hr>
-     <hr>
+<hr>
+
 <!-- Lista de Produtos -->
 <div class="container">
-    <div class="row row-cols-4">
-        <?php foreach($produtos as $key => $produto): ?>
-            <div class="col">
-                <div class="card">
-                    <img src="<?php echo $produto['foto'] ?>" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $produto['nome'] ?></h5>
-                        <p class="card-text"><?php echo $produto['descricao'] ?></p>
-                        <a href="#" class="btn btn-primary">Ver produto</a>
-                    </div>
-                </div>
-            </div>
-        <?php endforeach; ?>
+    <div class="row row-cols-4 g-3">
+
+    <?php foreach($produtos as $key => $produto):  ?> 
+      <div class="col">
+        <div class="card">
+          <img src="<?php echo $produto["foto"]; ?>" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title" ><?php echo $produto["nome"]; ?></h5>
+              <a href="#" class="btn btn-primary">Ver produto</a>
+          </div>
+        </div>
+      </div>
+    <?php endforeach; ?>
+
     </div>
 </div>
-
-
 <!-- Final da Lista de Produtos -->
 
-    <hr>
-    <hr>
+<hr>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   </body>
 </html>

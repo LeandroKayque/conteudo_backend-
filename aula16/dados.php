@@ -5,15 +5,15 @@ $p1 = [
     "foto" => "https://m.media-amazon.com/images/I/91ja8iyicjL._AC_SX425_.jpg",
     "preco" => 159.99,
     "descricao" => "Confeccionada em material sintético de poliuretano com shape tradicional, seu design é quadrado e amplo, as alças curtas são perfeitas para usar na mão, já sua alça longa tiracolo removível se adapta bem transpassada ao corpo.",
-    "categoria" => "moda"
+    "categoria" => "Moda"
 ];
 
 $p2 = [
     "nome" => "Nintendo, Console, Nintendo Switch, Nacional, V2, Portátil e Doméstico,
     Bateria de até 9 Horas, Inclui Joy-Con com Suporte e Alças, 1 ano de Garantia, Azul Neon e Vermelho Neon",
     "foto" => "https://m.media-amazon.com/images/I/71s9BjamD+L._AC_SX342_SY445_.jpg",
-    "preço" => 50.00,
-    "descricao" => "Sobre este item     JOGUE COMO PREFERIR. O Nintendo Switch foi desenvolvido para fazer parte da sua vida, transformando-se de um console doméstico em um console portátil num piscar de olhos     MODO TV. Coloque o seu Nintendo Switch na base do console para se divertir jogando em sua televisão.     MODO SEMIPORTÁTIL. Abra o suporte para compartilhar a tela do seu Nintendo Switch – e a diversão – em jogos multijogador.     MODO PORTÁTIL. Remova o console da base e jogue com os controles joy-con encaixados para aproveitar a diversão do seu Nintendo, de onde estiver.     ADAPTE-SE À DIVERSÃO. Os controles joy-con incluídos com o seu Nintendo Switch permitem total flexibilidade nos jogos.",
+    "preco" => 50.00,
+    "descrição" => "Sobre este item     JOGUE COMO PREFERIR. O Nintendo Switch foi desenvolvido para fazer parte da sua vida, transformando-se de um console doméstico em um console portátil num piscar de olhos     MODO TV. Coloque o seu Nintendo Switch na base do console para se divertir jogando em sua televisão.     MODO SEMIPORTÁTIL. Abra o suporte para compartilhar a tela do seu Nintendo Switch – e a diversão – em jogos multijogador.     MODO PORTÁTIL. Remova o console da base e jogue com os controles joy-con encaixados para aproveitar a diversão do seu Nintendo, de onde estiver.     ADAPTE-SE À DIVERSÃO. Os controles joy-con incluídos com o seu Nintendo Switch permitem total flexibilidade nos jogos.",
     "categoria" => "consoles",
 
 ];
@@ -31,13 +31,13 @@ $p3 = [
     "foto"=>"https://http2.mlstatic.com/D_NQ_NP_2X_673869-MLB54337661221_032023-F.webp",
     "preco"=>74.93,
     "descricao"=>"BOLSA VIZZANO MATELASSÊ LINDA!!!    PRODUTO ORIGINAL E COM NOTA FISCAL!        APROVEITE ESSA CONDIÇÃO ESPECIAL!!!        Linda Bolsa da Vizzano, muito versátil, pode ser usada tanto transversal como tiracolo, possuí regulagem na alça, muito leve e se encaixa bem com qualquer look.     Excelente para todas ocasiões, dia a dia, shopping, barzinho, balada, parques e onde você quiser ela vai te acompanhar bem.        EXPECIFICAÇÕES    Marca: Vizzano    Composição: Napa Sardenha Neo (sintético)    Bolsos: 1    Fecho: Zíper metal dourado    Alça: Na cor da bolsa e ajustável    Material interno: Têxtil    Garantia da fábrica sobre defeitos        MEDIDAS    Comprimento: 20cm    Largura: 21cm    Profundidade (base): 4cm    Alça: 120cm        INTENS INCLUSOS    1x Bolsa Vizzano 10000.4        OBS.: Selecione a cor no momento da compra. (Não conseguimos alterar depois que a compra for fechada)        A Digos Online é uma loja com mais de 12 anos no mercado atuando com lojas físicas e agora quer trazer toda a qualidade de atendimento e excelente serviço aos consumidores online.",    
-    "categoria"=>"moda"
+    "categoria"=>"Moda"
  ];
 
 $p5=[
       "nome"=>"A dança do universo: Dos Mitos de Criação ao Big-Bang",
-      "foto"=>"https://m.media-amazon.com/images/I/51VwpPoaMrL._SY346_.jpg",
-      "preço"=>11.96,
+      "foto"=>"https://m.media-amazon.com/images/P/B009WWEOMC.01._SCLZZZZZZZ_SX500_.jpg",
+      "preco"=>11.96,
       "descricao"=>"O que aconteceu no momento da Criação? Houve um minuto determinado em que o Universo que nos rodeia surgiu? Essas são questões tão antigas como a própria humanidade. Muitos procuram a resposta nos mitos e na religião. Outros nas teorias científicas. Em A dança do Universo, o físico Marcelo Gleiser mostra em linguagem clara que esses dois enfoques não são tão distantes quanto imaginamos, apresentando versões de diversas culturas para o mistério da Criação, até desembocar na explicação da ciência moderna para o surgimento do Universo.
       Prêmio Jabuti 1998 de Melhor Ensaio e Biografia",
       "categoria"=>"Livros" 
@@ -49,7 +49,7 @@ $p5=[
     "foto" => "https://img.ltwebstatic.com/images3_pi/2022/08/15/1660528339df32c60f5ecbf9f87ff1883657c336a8_thumbnail_600x.webp",
     "preco" => 22.95,
     "descricao" => "Cor:	Multicolorido     Estampa:	Simples     Material:	Plástico     Ideal para:	Gato / Cachorro.",
-    "categoria" => "moda"
+    "categoria" => "Moda"
  ];
 
  $p7 = [
@@ -103,7 +103,7 @@ $p12= [
 ];
 
 $p13 = [
-    "nome" => "Sofá Omega 2,00m Assento Retrátil e Reclinável Velosuede Grafite - NETSOFAS",
+   "nome" => "Sofá Omega 2,00m Assento Retrátil e Reclinável Velosuede Grafite - NETSOFAS",
    "foto" => "https://a-static.mlcdn.com.br/800x560/sofa-omega-200m-assento-retratil-e-reclinavel-velosuede-grafite-netsofas/netsofas02/ome250105/9a96d6410a4b648dcd4747ec355f6610.jpeg",
    "preco" =>  1249.97,
    "descricao" => "Informações técnicas:    Material da estrutura:Madeira Maciça de Eucalipto 100% de reflorestamento,produto ecologicamente correto.        Enchimento do Assento:Fibra de Poliéster,Percinta Elástica e Mola Bonnel.        Enchimento do Encosto:Flocos de Espuma e Fibra de Poliéster Siliconada.         Fixação da Estrutura:Grampos galvanizados antiferrugem.         Revestimento / Tecido:Velosuede.        Chaise:Não Possui.        Medidas:         Altura aproximada:100cm (fechado) e 83cm (aberto).        Largura aproximada:200cm.        Profundidade aproximada:95cm (fechado), 135cm (aberto) e 150cm (aberto com encosto reclinado).        Peso aproximado:71kg.        Necessita Montagem:Sim.        Necessita Montador Especializado:Não. Pode ser montado por uma pessoa sozinha.        Capacidade em KG por Lugar:Aproximadamente 80kg.        Garantia:3 meses contra defeito de fabricação. *a contar da data do recebimento da mercadoria.        Limpeza:Aspirar o Produto para Eliminar a Poeira, utilizar um pano levemente umedecido com água e sabão neutro, seguido de pano seco. Não limpar com escovas ou produtos abrasivos.         Recomendações de Manutenção:Usar em local seco, não molhar. Evitar exposição ao sol, para que o produto não sofra alterações na tonalidade.", 
@@ -140,10 +140,10 @@ $p16 = [
 
 $p17 = [
     "nome" => "Cerveja",
-    "foto" => "https://down-br.img.susercontent.com/file/sg-11134201-22110-vmm1jxstfijve5;",
+    "foto" => "https://down-br.img.susercontent.com/file/sg-11134201-22110-vmm1jxstfijve5",
     "preco" => 33.47,
     "descricao" => "Calças      UNISSEX            FEITO É POLIÉSTER TECTEL     POSSUI ELÁSTICO NA CINTURA E NAS BARRAS PARA AJUSTAR MELHOR AO CORPO, VESTINDO MELHOR DIVERSOS TAMANHOS, TECIDO DE ALTA QUALIDADE.          TAMANHOS     PP VESTE DO 34 AO 38     P VESTE DO 36 AO 40     M VESTE DO 38 AO 42     G VESTE DO 40 AO 44     GG VESTE DO 42 AO 46          GG comprimento 111 cm cintura 95 cm     G comprimento 110 cm cintura 94 cm     M comprimento 107 cm cintura 92 cm     P comprimento 105 cm cintura 90 cm     PP comprimento 102 cm cintura 88 cm          Tamanho 16 anos Comprimento 97 cm cintura 82 cm           Tamanho 14 anos Comprimento 96 cm cintura 79 cm          Tamanho 12 anos Comprimento 94 cm cintura 76 cm           Tamanho 10 anos Comprimento 91 cm cintura 70cm      ",
-    "categoria" => "moda"
+    "categoria" => "Moda"
  ];
 
  $p18 = [
@@ -151,7 +151,7 @@ $p17 = [
     "foto" => "https://m.media-amazon.com/images/I/610JnI2AV9L._AC_SX569_.jpg",
     "preco" => 209.99,
     "descricao" => "Fantasia engraçada de dinossauro/unicórnio inflável, chama a atenção e risadas para você.",
-    "categoria" => "moda"
+    "categoria" => "Moda"
  ];
 
 $p19 = [
@@ -159,7 +159,7 @@ $p19 = [
       "foto" => "https://m.media-amazon.com/images/I/41VR8IQfWeL._AC_SX679_.jpg",
       "preco" => 1614.47,
       "descricao" => "Todos os óculos de sol Maui Jim têm a tecnologia de lente PolarizedPlus2 que vai além de proteger seus olhos do brilho e dos raios UV nocivos, aprimorando as cores para revelar a verdadeira beleza do mundo ao seu redor",
-      "categoria" => "moda"
+      "categoria" => "Moda"
    ];
 
 $produtos = [$p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $p19];
